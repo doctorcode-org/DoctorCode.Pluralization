@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>DoctorCode Corporation.</Authors>
+    <Company>DoctorCode Corporation.</Company>
+    <PackageProjectUrl>https://github.com/doctorcode-org/DoctorCode.Pluralization</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/doctorcode-org/DoctorCode.Pluralization.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>pluralizer;pluralize;singularizer;singularize</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Key.pfx</AssemblyOriginatorKeyFile>
+    <Description>Pluralization library</Description>
+    <Copyright>© 2019 DoctorCode Corporation. All rights reserved.</Copyright>
+    <Version>1.0.0</Version>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
